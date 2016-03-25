@@ -9,3 +9,4 @@ requires
 --------
 
 * python
+* internet ;)
