@@ -3,7 +3,7 @@
 try:
   import requests
 except ImportError:
-  print("please install the requests module\npip install resquests\napt-get install python-requestsi\nexecute as root the installer script 'dependices-installer.py'")
+  print("please install the requests module\npip install resquests\napt-get install python-requestsi\nexecute as root the installer script 'dependencies-installer.py'")
   
 r = requests.get("https://api.ipify.org").text.decode("utf-8")
 print(r)
